@@ -16,6 +16,24 @@ Tienda Neni es una aplicación web para gestionar una tienda en línea, enfocada
   - `/pages`: Páginas principales de la aplicación como `Orders`, `Products`, `Clients`, etc.
   - `/services`: Servicios para la lógica de negocio, como autenticación.
 
+## Rutas y Módulos
+- `/`: Página de inicio
+- `/login`: Página de inicio de sesión
+- `/registro`: Página de registro
+- `/pedidos`: Página de pedidos
+- `/productos`: Página de productos
+- `/clientes`: Página de clientes
+- `/estadisticas`: Página de estadísticas
+- `/configuracion`: Página de configuración
+- `/configuracion-tienda`: Configuración de la tienda
+- `/tienda/:slug/`: Índice de la tienda
+- `/tienda/:slug/productos`: Productos de la tienda con filtros
+- `/tienda/:slug/categorias`: Categorías de la tienda
+- `/tienda/:slug/producto/:id`: Detalle del producto
+- `/tienda/:slug/carrito`: Carrito de compras
+- `/tienda/:slug/checkout`: Página de pago
+- `/tienda/:slug/confirmacion`: Confirmación de compra
+
 ## Instalación
 1. Clona el repositorio:
    ```bash
